@@ -1,0 +1,28 @@
+.mat img {
+  box-sizing: border-box;
+  width: 100%; height: auto;
+  display: block;
+  padding: 10%;
+  background-color: #b0a990;
+  background-image: url(./plaster.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 6px double #635c51;
+  box-shadow: 0 0 0 50px rgba(244,240,236,0.4) inset, 0 0 0 11px #202030, 0 0 30px rgba(0,0,0,0.8) inset;
+  outline: 2px solid #333;
+  outline-offset: 0px;
+}
+
+.art .label {
+  box-sizing: border-box;
+  margin: 2em auto 4em;
+  height: auto;
+  display: block;
+  width: 66%;
+  padding: .5em;
+  background-image: url(./textured-canvas.jpg);
+  background-color: primary.600;
+  background-size: cover;
+  background-repeat: repeat;
+  box-shadow: 5px 5px 10px #635c51;
+}
